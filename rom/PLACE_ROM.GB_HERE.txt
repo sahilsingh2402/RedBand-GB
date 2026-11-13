@@ -1,0 +1,13 @@
+Put your own Pokemon Red ROM in this folder, named exactly:
+
+    pokemon_red.gb
+
+It must be the English (USA/Europe) release, 1 MB (1,048,576 bytes), SHA-256:
+
+    5ca7ba01642a3b27b0cc0b5349b52792795b62d3ed977e98a09390659af96b7b
+
+The build checks this hash: the compiled blocks (pre-translated game code) and the save logic
+are made for that exact ROM. Then run ./build.sh from the repository root.
+
+No ROM is included in this repository, and none will be provided. Use a dump of a cartridge
+you own.

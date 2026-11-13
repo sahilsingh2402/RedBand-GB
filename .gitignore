@@ -1,0 +1,23 @@
+# your ROM never goes into git
+rom/*.gb
+rom/*.gbc
+rom/*.rom
+# everything made from the ROM by ./build.sh
+RedBandLuaWatchface/app/lua/gbank*.dat
+RedBandLuaWatchface/app/lua/gbcore*
+RedBandLuaWatchfaceLA/
+RedBandLuaWatchfaceLB/
+tools/gbcore.lua
+tools/gbcore_s.lua
+tools/gbcore_l.lua
+tools/gbcore_xl.lua
+tools/aot_blocks.inc.lua
+tools/cpu_tables.inc.lua
+tools/_dump.lua
+output/
+# test hosts and scratch
+tests/bandhost32
+tests/bandhost64
+tests/lua-5.4.0/
+__pycache__/
+*.pyc
